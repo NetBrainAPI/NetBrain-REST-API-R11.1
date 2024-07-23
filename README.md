@@ -2,7 +2,7 @@
 
 # Netbrain REST API Documentation
 
-Version 11.0<br>
+Version 11.1<br>
 To view details about integration workflows with other platforms, view "Platform Integration Documentation". These include workflows like Trigger Diagnosis where NetBrain is triggered from ticketing and monitoring tools to generate map URLs. Integration Workflows also incliudes Single Panel of Glass where data from ticketing and monitoring tools is overalyed on NetBrain Map.<br>
 To view details about use cases which can be implemented with NetBrain REST APIs, see "Golden Use Case Templates".<br>
 To see the list of all REST APIs view "REST APIs Documentation".<br>
@@ -64,6 +64,14 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 2) [Check Export Task Status API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Change%20Analysis%20Report/Check%20Export%20Task%20Status%20API.md)<br>
 3) [Download Change Analysis Report API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Change%20Analysis%20Report/Download%20Change%20Analysis%20Report%20API.md)
 
+### [Change Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/tree/main/REST%20APIs%20Documentation/Change%20Management)
+1) [Create Change Management Scheduled Task API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Change%20Management/Create%20Change%20Management%20Scheduled%20Task%20REST%20API.md)<br>
+2) [Delete Change Management Scheduled Task API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Change%20Management/Delete%20Change%20Management%20Scheduled%20Task%20API.md)<br>
+3) [Get Change Management Scheduled Task API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Change%20Management/Get%20Change%20Management%20Scheduled%20Task%20REST%20API.md)<br>
+4) [Update Change Management Scheduled Task API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Change%20Management/Update%20Change%20Management%20Scheduled%20Task%20API.md)<br>
+5) [_Change Management Approval Process API Design - Binding Runbook](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Change%20Management/_Change%20Management%20Approval%20Process%20API%20Design%20--%20Binding%20Runbook.md)<br>
+6) [_Change Management Approval Process API Design - Change state](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Change%20Management/_Change%20Management%20Approval%20Process%20API%20Design%20--%20Change%20state.md)<br>
+
 ### [Devices Access Control](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Device%20Access%20Control)
 ***Note:*** If customer want to use the Devices Access Control APIs, please go to the **System Management -> Advanced Settings -> Device Access Policy** then check the "Enable device access policy". <br>
 <img src="REST APIs Documentation/Device Access Control/DeviceAccessImage.JPG" /><br>
@@ -106,7 +114,7 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 10) [Get the connected switch ports of an end system API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Devices%20Management/Get%20the%20connected%20switch%20ports%20of%20an%20end%20system%20API.md)<br>
 11) [Get Device Raw Data API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Devices%20Management/Get%20Device%20Data%20API.md) <br>
 12) [Get Device API Version_1](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Devices%20Management/Get%20Device%20API%20Version_1.md)<br>
-13) [Modify NetBrain API Server Credential API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Devices%20Management/Modify%20NetBrain%20API%20Server%20Credential.md)
+13) [Modify NetBrain API Server Credential API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Devices%20Management/Modify%20NetBrain%20API%20Server%20Credential.md)<br>
 
 
 ### [Discovery Task Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R10/tree/main/REST%20APIs%20Documentation/Discovery%20Task%20Management) 
@@ -120,12 +128,24 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 8) [Get Discovery Task Live Access Log API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Discovery%20Task%20Management/Get%20Discovery%20Task%20Live%20Access%20Log%20API.md)<br>
 9) [Get Discovery Tasks Result API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Discovery%20Task%20Management/Get%20Discovery%20Tasks%20Result%20API.md)<br>
 10) [Get Discovery Tasks Status API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Discovery%20Task%20Management/Get%20Discovery%20Tasks%20Status%20API.md)<br>
-11) [Run Discovery Task Now API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Discovery%20Task%20Management/Run%20Discovery%20Task%20Now%20API.md)
+11) [Run Discovery Task Now API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Discovery%20Task%20Management/Run%20Discovery%20Task%20Now%20API.md)<br>
+
+### [Event Console Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/tree/main/REST%20APIs%20Documentation/Event%20Console%20Management)
+1) [Acknowledge_close Event Alert API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Event%20Console%20Management/Acknowledge_close%20Event%20Alert%20API.md) <br>
+2) [Delete Event Alert API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Event%20Console%20Management/Delete%20Event%20Alert%20API.md)<br>
+3) [Get Event console](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Event%20Console%20Management/Get%20Event%20console.md)<br>
+
+### [Event Driven Trigger](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/tree/main/REST%20APIs%20Documentation/Event%20Driven%20Trigger)
+1) [Create triggered event API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Event%20Driven%20Trigger/Create%20triggered%20event%20API.md)<br>
+2) [Get Triggered Event Status API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Event%20Driven%20Trigger/Get%20Triggered%20Event%20Status%20API.md)<br>
+3) [Event Template Sample Code](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Event%20Driven%20Trigger/Event%20Template%20Sample%20Code/Event%20Template%20Sample%20Code.md)<br>
+
+### [Incident Report](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/tree/main/REST%20APIs%20Documentation/Incident%20Report)
+1) [Export API Triggered Task Report API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Incident%20Report/Export%20API%20Triggered%20Task%20Report.md)<br>
 
 ### [Map Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Map%20Management) 
-1) [Delete Map API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Map%20Management/Delete%20Map%20API.md)<br>
-2) [Export Map API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Map%20Management/Export%20Map%20API.md)
-3) [Get Files List API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Get%20file%20list%20API.md)
+1) [Delete Map API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Map%20Management/Delete%20Map%20API.md)<br>
+2) [Export Map API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Map%20Management/Export%20Map%20API.md)<br>
 
 ### [Module Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Module%20Management)  
 1) [Applicable Module Attributes Table](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Module%20Management/Applicable%20Module%20Attributes%20Table.md)<br>
@@ -140,18 +160,24 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 2) [Delete Network Settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Network%20Setting/Delete%20Network%20Settings%20API.md)<br>
 3) [Update Network Settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Network%20Setting/Update%20Network%20Settings%20API.md)
 
+### [Path Browser](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/tree/main/REST%20APIs%20Documentation/Path%20Browser)
+1) [Get Saved Paths](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Path%20Browser/Get%20Saved%20Paths.md)<br>
+
 ### [Path Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Path%20Management/Path%20Calculation%20API.md)
 1) [Resolve Device Gateway API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Path%20Management/Path%20Calculation%20API.md)<br>
 2) [Calculate Path API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Path%20Management/Path%20Calculation%20API.md)<br>
 3) [Get Path Calculation Result API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Path%20Management/Path%20Calculation%20API.md)
 4) [Stop A PAth API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Path%20Management/Stop%20A%20Path%20API.md)
 
-### [User Roles Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/User%20Roles%20Management)
-1) [Add Role API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Roles%20Management/Add%20Role%20API.md)<br>
-2) [Delete Role API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Roles%20Management/Delete%20Role%20API.md)<br>
-3) [Update Role API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Roles%20Management/Update%20Role%20API.md)
-4) [Get Role Information API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Roles%20Management/Get%20Role%20Information%20API.md)
-
+### [Shared Device Setting Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/tree/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management) 
+1) [Get device API server settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20API%20server%20settings%20API.md)<br>
+2) [Get device CLI settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20CLI%20settings%20API.md)<br>
+3) [Get device SNMP settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20SNMP%20settings%20API.md)<br>
+4) [Get shared device settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20shared%20device%20settings%20API.md)<br>
+5) [Update device API server settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20API%20server%20settings%20API.md)<br>
+6) [Update device CLI settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20CLI%20settings%20API.md)<br>
+7) [Update device SNMP settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20SNMP%20settings%20API.md)<br>
+8) [Update device basic settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11.1/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20basic%20settings%20API.md)<br>
 
 ### [Site Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Site%20Management) 
 1) [Add Site Devices API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Site%20Management/Add%20Site%20Devices%20API.md)<br>
@@ -169,16 +195,6 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 13) [Remove Site Transaction API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Site%20Management/Remove%20Site%20Transaction%20API.md)<br>
 14) [Replace Site Devices API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Site%20Management/Replace%20Site%20Devices%20API.md)<br>
 15) [Site Transaction Heartbeat API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Site%20Management/Site%20Transaction%20Heartbeat%20API.md)
-
-### [Shared Device Setting Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management) 
-1) [Get device API server settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Devices%20Management/Get%20Group%20Devices%20API.md)<br>
-2) [Get device CLI settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20CLI%20settings%20API.md)<br>
-3) [Get device SNMP settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20device%20SNMP%20settings%20API.md)<br>
-4) [Get shared device settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Get%20shared%20device%20settings%20API.md)<br>
-5) [Update device API server settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20API%20server%20settings%20API.md)<br>
-6) [Update device CLI settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20CLI%20settings%20API.md)<br>
-7) [Update device SNMP settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20SNMP%20settings%20API.md)<br>
-8) [Update device basic settings API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Shared%20Device%20Setting%20Management/Update%20device%20basic%20settings%20API.md)<br>
 
 ### [TAF (Triggered Automation Framework)](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/TAF%20(Triggered%20Automation%20Framework))
 1) [Create IT System Data Model API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/TAF%20(Triggered%20Automation%20Framework)/1%20-%20Create%20IT%20System%20Data%20Model%20API.md)
@@ -226,6 +242,10 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 9) [Context Map Of Legacy Device](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Trigger%20Diagnosis%20API/Trigger%20Map%20API%20--%20Open%20Context%20Map%20Of%20Legacy%20Device.md)
 10) [Entire Trigger API Variables](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Trigger%20Diagnosis%20API/Trigger%20Diagnosis%20API%20V8.md)
 
+### [Tune Devices Access](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Tune%20Devices%20Access%20API%20Design)
+1) [Create Tune Devices Access Task ID API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Tune%20Devices%20Access%20API%20Design/Create%20Tune%20Devices%20Access%20Task%20ID%20API.md)<br>
+2) [Get Tune Devices Access Task Result API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Tune%20Devices%20Access%20API%20Design/Get%20tune%20device%20access%20task%20result%20API.md)<br>
+
 ### [User Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/User%20Management)
 1) [Add User API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Management/Add%20User%20API.md)<br>
 2) [Delete User API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Management/Delete%20User%20API.md)<br>
@@ -234,31 +254,8 @@ To see the list of all REST APIs view "REST APIs Documentation".<br>
 5) [Update User API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Management/Update%20User%20API.md)<br>
 6) [Get Users API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Management/Get%20Users%20API.md)
 
-### [Event Console Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Event%20Console%20Management)
-1) [Get Event Console API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Event%20Console%20Management/Get%20Event%20console.md)<br>
-2) [Acknowledge/close Event Alert API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Event%20Console%20Management/Acknowledge_close%20Event%20Alert%20API.md)<br>
-3) [Delete Event Alert API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Event%20Console%20Management/Delete%20Event%20Alert%20API.md)<br>
-
-### [Change Ticket Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R10/tree/main/REST%20APIs%20Documentation/Change%20Management)
-1) [Binding 3rd Party Ticket with Runbook API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Change%20Management/_Change%20Management%20Approval%20Process%20API%20Design%20--%20Binding%20Runbook.md)<br>
-2) [Approve Change Management Request API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Change%20Management/_Change%20Management%20Approval%20Process%20API%20Design%20--%20Change%20state.md)
-
-### [Change Ticket Management Scheduled Task](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Change%20Management%20Scheduled%20Task%20REST%20API%20Design)
-1) [Create Change Management Scheduled Task REST API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Change%20Management/Create%20Change%20Management%20Scheduled%20Task%20REST%20API.md)<br>
-2) [Get Change Management Scheduled Task REST API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Change%20Management/Get%20Change%20Management%20Scheduled%20Task%20REST%20API.md)<br>
-3) [Update Change Management Scheduled Task REST API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Change%20Management/Update%20Change%20Management%20Scheduled%20Task%20API.md)<br>
-4) [Delete Change Management Scheduled Task REST API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Change%20Management/Delete%20Change%20Management%20Scheduled%20Task%20API.md)<br>
-
-
-### [Tune Devices Access](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Tune%20Devices%20Access%20API%20Design)
-1) [Create Tune Devices Access Task ID API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Tune%20Devices%20Access%20API%20Design/Create%20Tune%20Devices%20Access%20Task%20ID%20API.md)<br>
-2) [Get Tune Devices Access Task Result API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Tune%20Devices%20Access%20API%20Design/Get%20tune%20device%20access%20task%20result%20API.md)<br>
-
-
-### [Event Trigger API Design](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Event%20Driven%20Trigger)
-1) [Create triggered event API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Event%20Driven%20Trigger/Create%20triggered%20event%20API.md)<br>
-2) [Get triggered event running status API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Event%20Driven%20Trigger/Get%20Triggered%20Event%20Status%20API.md)<br>
-
-
-### [Audit Logs Design](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/Audit%20Logs)
-1) [Audit Logs API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/Audit%20Logs/Audit%20Logs%20REST%20API%20Design.md)<br>
+### [User Roles Management](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/tree/main/REST%20APIs%20Documentation/User%20Roles%20Management)
+1) [Add Role API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Roles%20Management/Add%20Role%20API.md)<br>
+2) [Delete Role API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Roles%20Management/Delete%20Role%20API.md)<br>
+3) [Update Role API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Roles%20Management/Update%20Role%20API.md)
+4) [Get Role Information API](https://github.com/NetBrainAPI/NetBrain-REST-API-R11/blob/main/REST%20APIs%20Documentation/User%20Roles%20Management/Get%20Role%20Information%20API.md)
